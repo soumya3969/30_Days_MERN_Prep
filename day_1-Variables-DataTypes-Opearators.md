@@ -72,3 +72,89 @@ JavaScript is dynamically typed, meaning a variable can hold different data type
     ```javascript
     let colors = ["red", "green", "blue"];
     ```
+
+### Operators
+
+Operators in JavaScript are used to perform operations on values and variables. Here’s a quick overview:
+
+- **Arithmetic Operators**: Used to perform mathematical calculations.
+  - `+` Addition
+    ```javascript
+    let sum = 10 + 5; // 15
+    ```
+
+  - `-` Subtraction
+    ```javascript
+    let difference = 10 - 5; // 5
+    ```
+
+  - `*` Multiplication
+    ```javascript
+    let product = 10 * 5; // 50
+    ```
+
+  - `/` Division
+    ```javascript
+    let quotient = 10 / 2; // 5
+    ```
+
+  - `%` Modulus (Remainder)
+    ```javascript
+    let remainder = 10 % 3; // 1
+    ```
+
+- **Assignment Operators**: Assign values to variables.
+  - `=` Basic assignment
+    ```javascript
+    let x = 5;
+    ```
+
+  - `+=` Add and assign
+    ```javascript
+    x += 3; // x = x + 3
+    ```
+
+  - `-=` Subtract and assign
+    ```javascript
+    x -= 2; // x = x - 2
+    ```
+
+- **Comparison Operators**: Compare values and return a Boolean.
+  - `==` Equals (checks value equality)
+    ```javascript
+    console.log(5 == '5'); // true
+    ```
+
+  - `===` Strict equals (checks value and type equality)
+    ```javascript
+    console.log(5 === '5'); // false
+    ```
+
+  - `!=` Not equals
+    ```javascript
+    console.log(5 != '5'); // false
+    ```
+
+  - `!==` Strict not equals
+    ```javascript
+    console.log(5 !== '5'); // true
+    ```
+
+- **Logical Operators**: Combine or invert Boolean values.
+  - `&&` Logical AND
+    ```javascript
+    console.log(true && false); // false
+    ```
+
+  - `||` Logical OR
+    ```javascript
+    console.log(true || false); // true
+    ```
+
+  - `!` Logical NOT
+    ```javascript
+    console.log(!true); // false
+    ```
+
+These are the fundamental concepts you'd start with. 
+
